@@ -104,3 +104,30 @@ p{
   margin-top: -0px;
 }
 }
+
+@media(min-width: 1500px){
+  body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 117px;
+  }
+img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.b{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px 30px;
+  width: 1000px;
+  text-align: center;
+}
+p{
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -0px;
+}
+}
